@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" href="fonts/2899445.png" />
+
+    <title>Bookmarker</title>
+  </head>
+  <body>
+    <div
+      class="container d-flex flex-column justify-content-center align-items-center"
+    >
+      <div
+        class="position-relative w-100 vh-10 dot-lin d-flex justify-content-center align-items-center me-auto ms-auto"
+      >
+        <h1 class="txt text-center position-absolute">Bookmarker</h1>
+      </div>
+      <div class="grn-ing">
+        <h2 class="pt-4 text-center">
+          <i class="fas fa-bookmark"></i> Bookmark your favorite sites
+          <i class="fas fa-bookmark"></i>
+        </h2>
+      </div>
+      <div
+        class="ent-da dot-lin w-100 d-flex flex-column justify-content-center"
+      >
+        <div class="sit-grp w-100 position-relative">
+          <label class="mb-2" for="st-nam"
+            ><i class="fas fa-book-bookmark"></i> Site Name</label
+          >
+          <input
+            class="form-control w-100 mb-4"
+            id="st-nam"
+            type="text"
+            placeholder="Bookmark name"
+          />
+          <i class="fas fa-check position-absolute d-none"></i
+          ><i class="d-none fas fa-exclamation position-absolute d-block"></i>
+          <h3 class="d-none">Invalid Bookmark name</h3>
+        </div>
+
+        <div class="url-grp w-100 position-relative">
+          <label class="mb-2" for="sit-url"
+            ><i class="fas fa-link"></i> Site URL</label
+          >
+          <input
+            class="form-control w-100 mb-4"
+            id="sit-url"
+            type="text"
+            placeholder="Website URL"
+          />
+          <i class="fas fa-check position-absolute d-none"></i
+          ><i class="fas fa-exclamation position-absolute d-none"></i>
+          <h3 class="d-none">Invalid URL</h3>
+        </div>
+        <button id="sub" class="btn mb-3 align-self-center">Submit</button>
+      </div>
+      <div class="tbl w-100">
+        <div class="row mt-3 w-100 bg-white pt-2 brd-btm">
+          <div
+            class="con d-flex flex-row justify-content-between align-items-center"
+          >
+            <div class="col-3"><h4>Index</h4></div>
+            <div class="col-3"><h4>Website Name</h4></div>
+            <div class="col-3"><h4>Visit</h4></div>
+            <div class="col-3"><h4>Delete</h4></div>
+          </div>
+        </div>
+        <div class="crt mb-5">
+          
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

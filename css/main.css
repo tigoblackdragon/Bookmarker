@@ -1,0 +1,110 @@
+body {
+    background-color: #F7ECDE;
+}
+.container h1{
+    font-size: 50px;
+    height: 500;
+    font-family: "Pacifico", cursive;
+}
+.container h1::before{
+    content: "";
+    position: absolute;
+    background-color: #FEC260;
+    width: 260px;
+    height: 15px;
+    left: 0;
+    bottom:2px;
+    transition: 0.5s;
+    z-index: -1;
+}
+  
+
+.txt:hover::before{
+    height: 40px;
+}
+.dot-lin {
+    border-bottom:3px dotted black ;
+}
+.vh-10 {
+    height: 20vh;
+}
+.grn-ing {
+    background: linear-gradient(to right, #3ca55c, #b5ac49); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;   
+}
+.grn-ing h2{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.ent-dat label, input{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: pt-sans-caption;
+}
+#sub {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #d1512d;
+        --bs-btn-border-color: #d1512d;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #bb4120;
+        --bs-btn-hover-border-color: #a03315;
+        width: 150px;
+        box-sizing: border-box;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: rgb(217, 156, 57);
+    outline: 0;
+    box-shadow: rgba(254, 194, 96, 0.333) 0px 0px 0px 0.25rem;   
+}
+.tbl h4 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+font-family: pt-sans-caption;
+}
+.brd {
+    border: 2px solid black;
+}
+.brd-btm {
+    border-bottom: 0.5px solid rgb(199, 199, 199);
+}
+.btn-vis{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
+.inv-inp{
+    box-shadow: rgba(220, 53, 69, 0.25) 0px 0px 0px 0.25rem !important;
+    border-color: rgb(220, 53, 69) !important;
+}
+.cor-inp{
+    box-shadow: rgba(53, 220, 98, 0.075) 0px 0px 0px 0.25rem !important;
+    border-color: rgb(53, 220, 114) !important;
+}
+.fa-check{
+    color: rgb(53, 220, 114) ;
+    font-size: 30px;
+    right: 0.5%;
+    top: 35px;
+}
+.fa-exclamation{
+    color:  rgb(220, 53, 69);
+    font-size: 30px;
+    right: 1.3%;
+    top: 35px;
+}
+.sit-grp h3 {
+    font-size: 16px;
+  color: rgb(220, 53, 69) !important;
+}
+.url-grp h3 {
+    font-size: 16px;
+  color: rgb(220, 53, 69) !important;
+}
